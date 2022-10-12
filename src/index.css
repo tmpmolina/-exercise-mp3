@@ -1,0 +1,121 @@
+:root {
+  --x-margin: 30px;
+}
+
+body {
+  margin: 0%;
+  background-color: rgb(75 75 75);
+}
+
+.container-main {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+.mp3-main {
+  height: 650px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: var(--x-margin);
+  margin-top: var(--x-margin);
+  margin-bottom: var(--x-margin);
+  background-color: blueviolet;
+}
+
+.art-box {
+  height: 50%;
+  width: 100%;
+  background-color: var(--color);
+}
+
+.controls-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.controls-box button {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  border-color: transparent;
+  background-color: transparent;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls-box button img {
+  height: 110%;
+  width: 130%;
+  opacity: 1;
+  transition: 2s;
+  border-radius: 100%;
+}
+
+.art-box:hover .controls-box button img {
+  opacity: 1;
+}
+
+.last-button {
+  opacity: 1;
+}
+
+.last-button:active {
+  opacity: 0.6;
+}
+
+.play-button {
+  opacity: 1;
+}
+
+.play-button:active {
+  opacity: 0.6;
+}
+
+.next-button {
+  opacity: 1;
+}
+
+.next-button:active {
+  opacity: 0.6;
+}
+
+.title {
+  height: 30%;
+  width: 100%;
+  background-color: green;
+}
+
+.status-box {
+  height: 20%;
+  width: 100%;
+  background-color: blue;
+}
+
+.music-list {
+  height: 650px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-right: var(--x-margin);
+  margin-top: var(--x-margin);
+  margin-bottom: var(--x-margin);
+  background-color: rgb(149 33 147);
+}
+
+.song-in-music-list {
+  /* PARA QUITAR EL ERROR */
+}
+
+h1 {
+  text-align: center;
+}
