@@ -1,13 +1,13 @@
 [
     {
-      "title": "Monkey Island Theme",
-      "artist": "Michael Land",
-      "path": "./audio/TUTEL.mp3",
+      "title": "Robin Hustin x TobiMorrow",
+      "artist": "Light It Up (feat. Jex)",
+      "path": "./audio/Robin Hustin x TobiMorrow - Light It Up (feat. Jex).mp3",
       "image": "./img/placeholder2.png"
     },
     {
-      "title": "Outlaw (feat. Miss Mary)",
-      "artist": "It's different",
+      "title": "Outlaw",
+      "artist": "It's different (feat. Miss Mary)",
       "path": "./audio/it's different - Outlaw (feat. Miss Mary).mp3",
       "image": "./img/placeholder2.png"
     },
@@ -18,8 +18,8 @@
       "image": "./img/placeholder2.png"
     },
     {
-      "title": "MATAFAKA (feat. Marvin Divine)",
-      "artist": "Unknown Brain",
+      "title": "MATAFAKA",
+      "artist": "Unknown Brain (feat. Marvin Divine)",
       "path": "./audio/Unknown Brain - MATAFAKA (feat. Marvin Divine).mp3",
       "image": "./img/placeholder2.png"
     }
