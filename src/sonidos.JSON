@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Monkey Island Theme",
+      "artist": "Michael Land",
+      "path": "./audio/TUTEL.mp3",
+      "image": "./img/placeholder2.png"
+    },
+    {
+      "title": "Outlaw (feat. Miss Mary)",
+      "artist": "It's different",
+      "path": "./audio/it's different - Outlaw (feat. Miss Mary).mp3",
+      "image": "./img/placeholder2.png"
+    },
+    {
+      "title": "Be Around",
+      "artist": "Blooom",
+      "path": "./audio/Blooom - Be Around [NCS Release].mp3",
+      "image": "./img/placeholder2.png"
+    },
+    {
+      "title": "MATAFAKA (feat. Marvin Divine)",
+      "artist": "Unknown Brain",
+      "path": "./audio/Unknown Brain - MATAFAKA (feat. Marvin Divine).mp3",
+      "image": "./img/placeholder2.png"
+    }
+  ]

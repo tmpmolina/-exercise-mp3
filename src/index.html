@@ -7,23 +7,26 @@
   <title>Reproductor MP3</title>
   <link rel="stylesheet" href="./index.css">
   <script type="module" src="./index.js"></script>
-  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container-main">
     <div class="mp3-main">
       <div class="art-box">
-      <div class="controls-box">
-        <button class="last-button">
-          <img src="./img/img-last.png" alt="">
-        </button>
-        <button class="play-button">
-          <img src="./img/img-play.png" alt="">
-        </button>
-        <button class="next-button">
-          <img src="./img/img-next.png" alt="">
-        </button>
-      </div>
+        <img src="./img/placeholder.png" alt="">
+        <div class="controls-box">
+          <button class="last-button">
+            <img src="./img/img-last.png" alt="">
+          </button>
+          <button class="play-button">
+            <img class="play-button-img" src="./img/img-play.png" alt="">
+          </button>
+          <button class="next-button">
+            <img src="./img/img-next.png" alt="">
+          </button>
+        </div>
+          <input type="range" class="volume-bar" value="100" max="100">
+          <div class="volume-bar volume-bar-style"></div>
+          <input type="range"  class="current-time-bar " value="0" max="100">
       </div>
       <div class="title">
         <h1>HOLA</h1>
@@ -35,7 +38,10 @@
       </div>
     </div>
   <div class="music-list">
-    <div class="song-in-music-list"></div>
+    <!--      ESTA PARTE SE AÑADE EN JS          -->
+    <!-- <div class="song-in-music-list"> </div> --> 
+
+    
   </div>
   </div>  
 </body>
