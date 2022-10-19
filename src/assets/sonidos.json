@@ -2,25 +2,25 @@
     {
       "title": "Robin Hustin x TobiMorrow",
       "artist": "Light It Up (feat. Jex)",
-      "path": "./audio/Robin Hustin x TobiMorrow - Light It Up (feat. Jex).mp3",
-      "image": "./img/placeholder2.png"
+      "path": "./assets/audio/Robin Hustin x TobiMorrow - Light It Up (feat. Jex).mp3",
+      "image": "./assets/img/placeholder2.png"
     },
     {
       "title": "Outlaw",
       "artist": "It's different (feat. Miss Mary)",
-      "path": "./audio/it's different - Outlaw (feat. Miss Mary).mp3",
-      "image": "./img/placeholder2.png"
+      "path": "./assets/audio/it's different - Outlaw (feat. Miss Mary).mp3",
+      "image": "./assets/img/placeholder2.png"
     },
     {
       "title": "Be Around",
       "artist": "Blooom",
-      "path": "./audio/Blooom - Be Around [NCS Release].mp3",
-      "image": "./img/placeholder2.png"
+      "path": "./assets/audio/Blooom - Be Around [NCS Release].mp3",
+      "image": "./assets/img/placeholder2.png"
     },
     {
       "title": "MATAFAKA",
       "artist": "Unknown Brain (feat. Marvin Divine)",
-      "path": "./audio/Unknown Brain - MATAFAKA (feat. Marvin Divine).mp3",
-      "image": "./img/placeholder2.png"
+      "path": "./assets/audio/Unknown Brain - MATAFAKA (feat. Marvin Divine).mp3",
+      "image": "./assets/img/placeholder2.png"
     }
   ]

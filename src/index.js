@@ -33,9 +33,9 @@ let soundPlayingInfo;
 
 function playPausedButtonSwitch() {
   if (!soundplaying.paused) {
-    playStopButtonImg[0].src = "./img/img-pause.png";
+    playStopButtonImg[0].src = "./assets/img/img-pause.png";
   } else {
-    playStopButtonImg[0].src = "./img/img-play.png";
+    playStopButtonImg[0].src = "./assets/img/img-play.png";
   }
 }
 
