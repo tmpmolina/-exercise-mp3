@@ -1,6 +1,6 @@
 let soundplaying;
 let soundPlayingInfo;
-
+// TODO FUNCIONA CORRECTAMENTE
 let sonidosJson = await fetch("./sonidos.JSON");
 sonidosJson = await sonidosJson.json();
 
