@@ -1,21 +1,25 @@
+import {
+  songsList,
+  lastButton,
+  playStopButton,
+  nextButton,
+  playStopButtonImg,
+  artBox,
+  titleh1,
+  titleh2,
+  volumeBar,
+  volumeBarStyle,
+  currentTimeBar,
+  currentTimeBarStyle
+} from "./modules/dom.js";
+
+import sonidosJson from "./assets/sonidos.json";
+
 let soundplaying;
 let soundPlayingInfo;
-// TODO FUNCIONA CORRECTAMENTE
-let sonidosJson = await fetch("./sonidos.JSON");
-sonidosJson = await sonidosJson.json();
 
-const songsList = document.getElementsByClassName("song-in-music-list");
-const lastButton = document.getElementsByClassName("last-button");
-const playStopButton = document.getElementsByClassName("play-button");
-const nextButton = document.getElementsByClassName("next-button");
-const playStopButtonImg = document.getElementsByClassName("play-button-img");
-const artBox = document.querySelector(".art-box img");
-const titleh1 = document.querySelector(".title h1");
-const titleh2 = document.querySelector(".title h2");
-const volumeBar = document.querySelector(".volume-bar");
-const volumeBarStyle = document.querySelector(".volume-bar-style");
-const currentTimeBar = document.querySelector(".current-time-bar");
-const currentTimeBarStyle = document.querySelector(".current-time-bar-style");
+// let sonidosJson = await fetch("./sonidos.json");
+// sonidosJson = await sonidosJson.json();
 
 // function clearMusicList() {
 //   const songsList = document.getElementsByClassName("song-in-music-list");
@@ -185,8 +189,8 @@ function timeManipulationMouseUp(event) {
 
 // LOAD MUSIC LIST //
 function loadMusicList() {
+  const musicList = document.querySelector(".music-list");
   for (const i in sonidosJson) {
-    const musicList = document.querySelector(".music-list");
     const div = document.createElement("div");
     const b = document.createElement("b");
     div.appendChild(b);

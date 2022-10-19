@@ -1,0 +1,12 @@
+export const songsList = document.getElementsByClassName("song-in-music-list");
+export const lastButton = document.getElementsByClassName("last-button");
+export const playStopButton = document.getElementsByClassName("play-button");
+export const nextButton = document.getElementsByClassName("next-button");
+export const playStopButtonImg = document.getElementsByClassName("play-button-img");
+export const artBox = document.querySelector(".art-box img");
+export const titleh1 = document.querySelector(".title h1");
+export const titleh2 = document.querySelector(".title h2");
+export const volumeBar = document.querySelector(".volume-bar");
+export const volumeBarStyle = document.querySelector(".volume-bar-style");
+export const currentTimeBar = document.querySelector(".current-time-bar");
+export const currentTimeBarStyle = document.querySelector(".current-time-bar-style");
